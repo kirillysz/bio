@@ -1,7 +1,6 @@
 import "./Person.css"
 
 import Icons from "../Icons/Icons"
-import About from "../About/About"
 
 import ProjectButton from "../Buttons/ProjectButton/ProjectButton"
 import ContactButton from "../Buttons/ContactButton/ContactButton"
