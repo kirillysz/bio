@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+body {
+    padding-top: 75px;
+}
+
+.person-container {
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.person-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.button-row {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+
+.person-container img {
+    width: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    transition: 
+        width 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.person-container img:hover {
+    width: 12%;
+    box-shadow: 0 4px 24px rgba(0, 230, 184, 0.25);
+}
+
+.mini-bio {
+    padding-top: 1%;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    body {
+        padding-top: 60px
+    }
+    .person-container img {
+        width: 22%;
+    }
+    .person-container img:hover {
+        width: 25%;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding-top: 48px;
+    }
+    .person-container img {
+        width: 40%;
+    }
+    .person-container img:hover {
+        width: 45%;
+    }
+    .mini-bio {
+        font-size: 16px;
+        padding-top: 4%;
+    }
+}

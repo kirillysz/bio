@@ -1,0 +1,23 @@
+.contact-button {
+    width: clamp(450px, 50%, 700px);
+    height: clamp(35px, 6vw, 55px);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #fff;
+    color: #1c1d1e;
+    border: 2px solid #1c1d1e;
+    white-space: nowrap;
+    padding: 0 40px;
+}
+
+.contact-button:hover {
+    background: #1c1d1e;
+    color: #fff;
+    border: 2px solid #fff;
+}

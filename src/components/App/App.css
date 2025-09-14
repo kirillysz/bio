@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.main {
+    min-height: 100vh;
+    background: #1c1d1e;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.person-container * {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s forwards;
+}
+
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
