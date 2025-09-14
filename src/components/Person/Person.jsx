@@ -11,7 +11,7 @@ export default function Person() {
     return (
         <div className="person-container" id="home">
             <div className="person-content">
-                <img src="/src/assets/photo.jpg" alt="image" />
+                <img src="/bio/photo.jpg" alt="image" />
 
                 <div className="mini-bio">
                     <h1 className="name">Кирилл Тимошенко</h1>
